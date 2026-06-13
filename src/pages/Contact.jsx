@@ -42,13 +42,13 @@ function Contact() {
                 setLoading(true);
 
 
-    emailjs
-      .sendForm(
-        "service_c6si0rp",
-        "template_krchlhy",
-        form.current,
-        "SBBodsXF8AC9Cj2vp"
-      )
+
+		emailjs.sendForm(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  form.current,
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
       .then(
         (result) => {
           alert("Mail Sent Successfully");
