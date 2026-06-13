@@ -160,7 +160,7 @@ function Contact() {
                                              <div className="form-group col-md-12 mb-4">
                                                 <ReCAPTCHA
                                                     ref={recaptchaRef}
-                                                    sitekey="6LdgfvcsAAAAAGNX15PexJ90x-sXHAMR8ppDiaPJ"
+													sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
                                                     onChange={handleCaptcha}
                                                 />
                                             </div>
