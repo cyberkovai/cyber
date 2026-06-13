@@ -14,7 +14,7 @@ import "./assets/css/swiper-bundle.min.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/cyber">
+    <BrowserRouter basename="/">
       <Header />
       <AppRouter />
       <Footer />
