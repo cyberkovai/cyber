@@ -41,7 +41,7 @@ import author5 from "../assets/images/author-5.jpg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-import  serviceImg1 from "../assets/images/image_1.png";
+import  serviceImg1 from "../assets/images/reimage_2.png";
 import  serviceImg2 from "../assets/images/reimage_2.png";
 
 import  serviceImg3 from "../assets/images/panel_3.png";
