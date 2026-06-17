@@ -84,7 +84,7 @@ function Footer() {
                                 <i className="fa-solid fa-envelope"></i>
                             </div>
                             <div className="footer-contact-content">
-                                <p><a href="tel:+917094620896">+91 70946 20896</a></p>
+                                <p><a href="tel:+917094620896">+91 63820 19821</a></p>
                             </div>
                         </div>
                         
