@@ -41,14 +41,13 @@ import author5 from "../assets/images/author-5.jpg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-import serviceImg1 from "../assets/images/image_1_1.png";
-import  serviceImg2 from "../assets/images/reimage_2.png";
-
-import  serviceImg3 from "../assets/images/panel_3.png";
-import  serviceImg4 from "../assets/images/reimage_4.webp";
-import  serviceImg5 from "../assets/images/reimage_5.png";
-import  serviceImg6 from "../assets/images/reimage_6.webp";
-import  serviceImg7 from "../assets/images/reimage_7.webp";
+import  serviceImg1 from "../assets/images/image_1_1.png";
+import  serviceImg2 from "../assets/images/image_2_2.png";
+import  serviceImg3 from "../assets/images/image_3_3.png";
+import  serviceImg4 from "../assets/images/image_4_4.png";
+import  serviceImg5 from "../assets/images/image_5_5.png";
+import  serviceImg6 from "../assets/images/image_6_6.png";
+import  serviceImg7 from "../assets/images/image_7_7.png";
 
 
 import aboutVideo from "../assets/videos/about-video-1.mp4"; // video path
