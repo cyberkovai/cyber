@@ -46,8 +46,8 @@ import  serviceImg2 from "../assets/images/image_2_2.png";
 import  serviceImg3 from "../assets/images/image_3_3.png";
 import  serviceImg4 from "../assets/images/image_4_4.png";
 import  serviceImg5 from "../assets/images/image_5_5.png";
-import  serviceImg6 from "../assets/images/image_6_6.png";
-import  serviceImg7 from "../assets/images/image_7_7.png";
+import  serviceImg6 from "../assets/images/image_7_7.png";
+import  serviceImg7 from "../assets/images/image_8_8.png";
 
 
 import aboutVideo from "../assets/videos/about-video-1.mp4"; // video path
