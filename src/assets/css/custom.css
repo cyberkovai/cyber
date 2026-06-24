@@ -1583,6 +1583,17 @@ header.main-header .header-sticky.active{
 	z-index: 1;
 }
 
+
+.why-choose-us{
+	/* background: var(--secondary-color); */
+	border: 1px solid var(--divider-color);
+	border-radius: 30px;
+	padding: 60px;
+    background: url('../images/banner_1_2.png') no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
+
 .why-choose-box{
 	/* background: var(--secondary-color); */
 	border: 1px solid var(--divider-color);
