@@ -190,7 +190,7 @@ function Contact() {
 
                                 <div className="contact-item-content">
                                     <p>contact us</p>
-                                    <h3><a href="tel:+91 70946 20896">+91 70946 20896</a></h3>
+                                    <h3><a href="tel:+91 70946 20896">+91 63820 19821</a></h3>
                                 </div>
                             </div>
 
