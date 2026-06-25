@@ -17,52 +17,50 @@ function Contact() {
 
   const form = useRef();
 
-  const recaptchaRef = useRef();
+const [loading, setLoading] = useState(false);
 
-   const [captchaVerified, setCaptchaVerified] = useState(false);
-   const [loading, setLoading] = useState(false);
+const recaptchaRef = useRef();
 
-    const handleCaptcha = (value) => {
-        if (value) {
-            setCaptchaVerified(true);
-        }
-    };
+const [captchaVerified, setCaptchaVerified] = useState(false);
 
-
-  const sendEmail = (e) => {
-    e.preventDefault();
+const handleCaptcha = (value) => {
+  setCaptchaVerified(!!value);
+};
 
 
-        // Check captcha
-        if (!captchaVerified) {
-            alert("Please verify Google reCAPTCHA");
-            return;
-        }
+const sendEmail = (e) => {
+  e.preventDefault();
 
-                setLoading(true);
+  if (!captchaVerified) {
+    alert("Please verify Google reCAPTCHA");
+    return;
+  }
 
+  emailjs
+    .sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
+    .then(
+      () => {
+        alert("Mail Sent Successfully");
 
+        form.current.reset();
 
-		emailjs.sendForm(
-  import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-  form.current,
-  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-)
-      .then(
-        (result) => {
-          alert("Mail Sent Successfully");
-          form.current.reset();
-          setCaptchaValue(null);
-          console.log(result.text);
-        },
-        (error) => {
-          alert("Failed to send mail");
-          console.log(error.text);
-        }
-      );
-  };
+        recaptchaRef.current.reset();
+        setCaptchaVerified(false);
+      },
+      () => {
+        alert("Failed to send mail");
 
+        recaptchaRef.current.reset();
+        setCaptchaVerified(false);
+      }
+    );
+};
+	
   return <>
 	<div className="page-header">
         <div className="grid-lines">
