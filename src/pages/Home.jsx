@@ -596,7 +596,7 @@ const servicesData = [
                         </div>
 
                         <div className="section-footer-text wow fadeInUp" data-wow-delay="0.6s">
-                            <p><span>Free</span>Let's make something great work together. - <Link to='/contact'>Get Free Quote</Link></p>
+                            <p>Let's make something great work together. - <Link to='/contact'>Get Quote</Link></p>
                         </div>
                     </div>
                 </div>
