@@ -474,6 +474,7 @@ function About() {
 
                         <div className="row mt-5">
 
+							<h3  className="wow fadeInUp mb-3" data-wow-delay="0.2s" data-cursor="-opaque">Licensed & <span> Certified Investigation </span> Associations</h3>
                                 <div className="col-3">
                                     <figure className="image-anime">
                                         <img src={companylogo1} alt="Licensed Investigation" />
