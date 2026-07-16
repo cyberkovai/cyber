@@ -82,8 +82,8 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: url("../images/bgimage_1.png") center/cover no-repeat;
-    opacity: 0.2;      /* Adjust opacity (0.1 - 1) */
+    background: url("../images/bgimage_2.png") center/cover no-repeat;
+    opacity: 0.1;      /* Adjust opacity (0.1 - 1) */
     z-index: -1;       /* Keep it behind the content */
 }
 
