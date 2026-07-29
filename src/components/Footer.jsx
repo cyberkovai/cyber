@@ -5,11 +5,13 @@ import mainlogo1 from "../assets/images/main-logo-1.png";
 function Footer() {
 
   const servicesData = [
-    { id: 1, slug:'pre-matrimonial-screening', title: "Pre Matrimonial Screening", description: "Verify personal background, habits, financial status, and social reputation before marriage decisions." },
-    { id: 2, slug:'post-matrimonial-disputes', title: "Post Matrimonial Disputes", description: "Professional investigation support for marital disputes, hidden affairs, and family conflicts." },
-    { id: 3, slug:'character-report', title: "Character Report", description: "Get confidential reports about an individual's behavior, reputation, and personal background." },
-    { id: 4, slug:'pre-employment-verification', title: "Pre-Employment Verification", description: "Verify employee credentials, address, work history, and criminal background before hiring." },
-    { id: 5, slug:'post-employment-investigation', title: "Post-Employment Investigation", description: "Investigate employee misconduct, information leakage, fraud, or policy violations." },
+    { id: 1,  title: "Cybercrime Victim Assistance & Account Recovery"},
+    { id: 2,  title: "Digital Investigations & OSINT" },
+    { id: 3,  title: "Social Media Investigations & Impersonation Removal" },
+    { id: 4,  title: "Cyber Fraud Investigation Support" },
+    { id: 5,  title: "Digital Evidence Preservation & Forensics" },
+    { id: 6,  title: "Executive & Family Digital Protection" },
+    { id: 7,  title: "Cybersecurity Awareness & LEA Training" },
   ];
     
 
@@ -59,7 +61,7 @@ function Footer() {
                         <ul>
                                   {servicesData.map((item) => (
 
-                            <li><Link to={`/service/${item.slug}`}>{item.title}</Link></li>
+                            <li><Link>{item.title}</Link></li>
                          
                                   ))}
 
