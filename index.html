@@ -26,6 +26,19 @@
 <script src="/assets/js/magiccursor.js"></script>
 <script src="/assets/js/function.js"></script>
 <script src="/assets/js/validator.min.js"></script> -->
+<script>
+  // Initialize the agent at application startup.
+  // If you're using an ad blocker or Brave/Firefox, this import will not work.
+  // Please use the npm package instead: https://t.ly/ORyXk
+  const fpPromise = import('https://openfpcdn.io/fingerprintjs/v5')
+    .then(FingerprintJS => FingerprintJS.load());
 
+  (async () => {
+    // Get the visitor identifier when you need it.
+    const fp = await fpPromise
+    const result = await fp.get()
+    console.log(result.visitorId)
+  })()
+</script>
   </body>
 </html>
