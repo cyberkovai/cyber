@@ -12,6 +12,7 @@ function Footer() {
     { id: 5,  title: "Digital Evidence Preservation & Forensics" },
     { id: 6,  title: "Executive & Family Digital Protection" },
     { id: 7,  title: "Cybersecurity Awareness & LEA Training" },
+    { id: 8,  title: "Child Digital Safety & Protection" },
   ];
     
 
