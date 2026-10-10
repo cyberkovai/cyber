@@ -85,7 +85,7 @@ function Services() {
       title: "Child Digital Safety & Protection",
       image: serviceImg8,
 
-      description: "Helping families create a safer digital environment for children through discreet investigations and online risk assessment. We identify potential threats such as cyberbullying, inappropriate online interactions, digital harassment, and suspicious activities to help protect children's online well-being.",
+      description: "We help safeguard children in the digital world through confidential investigations, online threat assessment, and digital evidence analysis. Our services focus on identifying cyberbullying, online harassment, suspicious digital interactions, and potential child exploitation risks, including the identification and reporting of Child Sexual Abuse Material (CSAM).",
     },
   ];
 

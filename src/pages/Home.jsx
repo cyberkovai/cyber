@@ -152,7 +152,7 @@ function Home() {
             title: "Child Digital Safety & Protection",
             image: serviceImg8,
 
-            description: "Helping families create a safer digital environment for children through discreet investigations and online risk assessment. We identify potential threats such as cyberbullying, inappropriate online interactions, digital harassment, and suspicious activities to help protect children's online well-being.",
+            description: "We help safeguard children in the digital world through confidential investigations, online threat assessment, and digital evidence analysis. Our services focus on identifying cyberbullying, online harassment, suspicious digital interactions, and potential child exploitation risks, including the identification and reporting of Child Sexual Abuse Material (CSAM).",
         },
     ];
 
@@ -195,7 +195,7 @@ function Home() {
 
 
                             <div className="hero-btn wow fadeInUp" data-wow-delay="0.6s">
-                                <a href="tel:+91 70946 20896" className="btn-default btn-highlighted">Get Consultation</a>
+                                <a href="tel:+916382019821" className="btn-default btn-highlighted">Get Consultation</a>
                                 <Link to="/services" className="btn-default">View Services</Link>
                             </div>
                         </div>
@@ -501,11 +501,6 @@ function Home() {
 
                                 <div className="facts-video-content">
 
-                                    <div className="video-play-button">
-                                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" className="popup-video" data-cursor-text="Play">
-                                            <i className="fa-solid fa-play"></i>
-                                        </a>
-                                    </div>
 
                                     <h3>Professional Investigation Solutions</h3>
 
@@ -739,7 +734,7 @@ function Home() {
 
                                         <p>
                                             <a href="tel:+917094620896">
-                                                +91 70946 20896
+                                                +916382019821
                                             </a>
                                         </p>
                                     </div>
